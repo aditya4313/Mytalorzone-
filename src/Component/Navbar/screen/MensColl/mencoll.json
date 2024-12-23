@@ -1,0 +1,42 @@
+{
+    "product": [
+        
+    
+        
+        {
+            "idd": "4",
+            "name": "Men Colorblock Casual Jacket",
+            "price": 999,
+            "quantity": 1,
+            "imageUrl": "https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/i/l/p/xl-1-no-heavy-upar-0-futse-peno-original-imah6hzhet6zpyaa.jpeg?q=70"
+        },
+        {
+            "idd": "2",
+            "name": "Men Solid Jacket",
+            "price": 549,
+            "quantity": 1,
+            "imageUrl": "https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/f/7/b/xl-1-no-upar-wind-17-futse-peno-original-imah4npa3kkznkgn.jpeg?q=70"
+        },
+        {
+            "idd": "1",
+            "name": "Men Solid Bomber Jacket",
+            "price": 315,
+            "quantity": 1,
+            "imageUrl": "https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/q/t/k/l-1-no-hoc-mf-23-slv-chain-jkt-houseofcommon-original-imah6zmujky7egdh.jpeg?q=70"
+        } 
+        ,   {
+            "idd": "5",
+            "name": "Men Colorblock Varsity Jacket",
+            "price": 899,
+            "quantity": 1,
+            "imageUrl": "https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/7/c/t/xl-no-varsity02-alph-u-be-savage-original-imagphm8bgyq6ztf.jpeg?q=70"
+        },
+        {
+            "idd": "3",
+            "name": "Men Colorblock Bomber Jacket",
+            "price": 270,
+            "quantity": 1,
+            "imageUrl": "https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/q/l/p/s-1-no-bftbm4002sgreyblack-boldfit-clothing-original-imah6rudxwb65hy4.jpeg?q=70"
+        }
+    ]
+}

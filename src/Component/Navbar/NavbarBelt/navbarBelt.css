@@ -1,0 +1,203 @@
+.navbarBelt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #82b1e1; /* Light gray background */
+    padding: 4px 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+  }
+
+  
+  .logoNavbelt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-decoration: none;
+    line-height: 0.8; /* Reduces the space between title and subtitle */
+  }
+
+  .logoNavbelt:hover{
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out, background-color 0.1s ease-in-out;
+    transform: scale(1.1);
+  }
+  
+  .mainTitle {
+    font-family: 'Playfair Display', serif; /* Elegant font for the brand name */
+    font-size: 1.5rem; /* Smaller font size */
+    font-weight: bold;
+    color: #2c3e50; /* Dark blue color */
+    margin: 0;
+  }
+  
+  .subTitle {
+    font-family: 'Dancing Script', cursive; /* Handwritten style for "By Sahiba" */
+    font-size: 0.9rem; /* Smaller font size */
+    color: #8e44ad; /* Purple color */
+    margin: 0;
+    margin-top: 2px; /* Minimal gap between title and subtitle */
+  }
+  
+  .searchbarNavbelt {
+    flex-grow: 1;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rightNavbelt {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:2px;
+    text-decoration: none;
+  }
+  
+  .rightNavbelt > * {
+    margin-left: 0px; /* Add spacing between elements */
+  }
+  
+
+  .navbarBeltSearchbox {
+    padding: 10px; /* Match padding with icon */
+    width: 80%;
+    border: 1px solid #ccc; /* Optional: Add border for clarity */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 15px; /* Font size for placeholder and input */
+  }
+  
+  .navbarBeltSearchbox::placeholder {
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .navbarBeltSearchbox:focus {
+    outline: none;
+    border: #f19823;
+    
+   
+  }
+  
+  .searchIconNavbarBeltIcon {
+    height: 100%; /* Match the height of the input */
+    padding: 6.5px; /* Equal padding as input */
+    background-color: #f19823;
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px; /* Ensure consistency */
+  }
+  
+  .searchIconNavbarBeltIcon:hover {
+    background-color: #e6af67;
+  }
+  
+  .searchbarNavbelt {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px; /* Optional: Limit width */
+  }
+
+  .rightNavbelt {
+    display: flex;
+    align-items: center;
+    position: relative; /* Ensure correct positioning for child elements */
+  }
+  
+  .hellotopnavbarshoping {
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center; /* Center-align both icon and text */
+    position: relative; /* Position relative to allow for proper placement of the cart number */
+  }
+  
+  .localMallIcon {
+    font-size: 40px; /* Increased size for the cart icon */
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .localMallIcon:hover {
+    transform: scale(1.2); /* Enlarges the cart icon on hover */
+    color: #f39c12; /* Changes color on hover */
+    background-color: #e6af67; /* Optional: background color if desired */
+  }
+  
+  .cartTitleNumbernavbarBelt {
+    position: absolute;
+    top: 4px; /* Moves the cart number above the icon */
+    right: 4px; /* Moves the cart number slightly to the right of the icon */
+     /* Background color for visibility */
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    /* Makes the cart number circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Ensures the cart number overlaps the icon */
+  }
+  
+  .cartTitle {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -5px; /* Adds spacing between the icon and the Cart text */
+  }
+
+  
+  
+  .hellotopnavbarshoping:hover .cartTitleNumbernavbarBelt {
+    background-color: #f39c12; /* Changes background color on hover */
+    
+  }
+
+  .hellotopnavbarshoping:hover .cartTitle {
+     /* Changes text color when the cart icon is hovered */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+    transform: scale(1.2);
+  }
+
+
+  .bookmark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    margin-top: -5px;
+    font-size: 14px; /* Adjust the size of the icon */
+    cursor: pointer; /* Adds a pointer cursor for interactivity */
+    transition: transform 0.3s ease-in-out; /* Smooth hover transition */
+  }
+  
+  .bookmark:hover {
+    transform: scale(1.2); /* Scale the icon slightly on hover */
+  }
+
+  .profilelogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    margin-top: -5px;
+    font-size: 14px; /* Adjust the size of the icon */
+    cursor: pointer; /* Adds a pointer cursor for interactivity */
+    transition: transform 0.3s ease-in-out; /* Smooth hover transition */
+  }
+  
+  .profilelogo:hover {
+    transform: scale(1.2); /* Scale the icon slightly on hover */
+  }
+  
+
+  

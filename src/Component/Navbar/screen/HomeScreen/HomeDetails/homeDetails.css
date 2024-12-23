@@ -1,0 +1,131 @@
+
+
+
+/* General styles for the card wrapper */
+.homeDetails {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.homedetailslongcard {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.homedetaillongcardtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.homeDetaillongcardWrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Scrollable area styles */
+.homeDetaillongcarditems {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 15px;
+    padding: 10px 0;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.homeDetaillongcarditems::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, Edge */
+}
+
+/* Individual card styles */
+.homeDetailLongCardItem {
+    min-width: 200px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.homeDetailLongCardItem:hover {
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhance shadow */
+}
+
+/* Image styles */
+.homedetaillongcarditemimg {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.homedetaillongcarditemimg:hover {
+    transform: scale(1.1); /* Slightly zoom the image */
+}
+
+/* Card details */
+.homedetailscarditemImgDetail {
+    padding: 10px;
+    text-align: center;
+}
+
+.homedetailpercentoff {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff5722;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.limitedTimeDealHomeDeal {
+    font-size: 14px;
+    color: #555;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Text hover effects */
+.homeDetailLongCardItem:hover .homedetailpercentoff {
+    color: #ff784e; /* Change discount text color */
+}
+
+.homeDetailLongCardItem:hover .limitedTimeDealHomeDeal {
+    color: #000; /* Change deal text color */
+}
+
+/* Scroll buttons */
+.scrollButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftButton {
+    left: 0;
+}
+
+.rightButton {
+    right: 0;
+}
+
+.scrollButton:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darken button on hover */
+}

@@ -1,0 +1,179 @@
+.homebabber{
+    width: 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+     overflow: hidden;
+        background-color: #f0f0f0;
+
+    position: relative;
+}
+
+
+.homebannerimg{
+    height : 110vh;
+    width : 100%; 
+    transition: opacity 0.5s ease-in-out;
+    
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0) 100%);
+-webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0) 100%);
+
+
+}
+
+.homeBannerItems{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    grid-template-columns: auto auto auto auto;
+    gap : 20 px;
+    top : 88%;
+    padding : 0 20px;
+    position: absolute;
+
+}
+/* 
+.homebanneritemvCard{
+    display: flex;
+    background-color: rgb(204, 71, 71);
+    flex-direction: column;
+    height: 475px;
+    width: 330px;
+    box-sizing: border-box;
+    padding: 20px 0 15px;
+    
+}
+
+.homeBannerItemDivCardTitle{
+    margin: 0 20px;
+    font-size: 21px;
+    font-weight: 300;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    
+    
+}
+
+
+.imgBannerHomeDiv{
+    height: 200px;
+    width: 200px;
+   
+   
+}
+    
+.imgBannerHomeDivimg{
+    height: 441px;
+    width: 300px;
+    margin-left: 15px;
+    margin-top: -250px;
+} */
+
+
+/* homeBanner.css */
+
+.homeBannerContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 15px;
+
+}
+
+.homeBannerItems,
+.homeBannerItems1,
+.homeBannerItems2,
+.homeBannerItems3{
+    display: grid;
+    justify-content: space-between;
+    
+}
+
+.homeBannerItems{
+    margin-left: 10px;
+}
+
+
+
+/* Styles for the card container */
+.homebanneritemvCard {
+    position: relative;
+    height: 475px;
+    width: 330px;
+    background-color: #f0f0f0;
+    padding: 10px 0 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Image section */
+.imgBannerHomeDiv {
+    height: 200px;
+    width: 100%;
+}
+
+.imgBannerHomeDivimg {
+    height: 475px;
+    width: 330px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+/* Hover effect on the image */
+.homebanneritemvCard:hover .imgBannerHomeDivimg {
+    opacity: 0.5;
+}
+
+/* Title section */
+.homeBannerItemDivCardTitle {
+    margin: 0 20px;
+    font-size: 21px;
+    font-weight: 300;
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+/* Hidden content section (for text and button) */
+.homebanneritemvCard .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.homebanneritemvCard:hover .overlay {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Styles for the overlay content */
+.overlay .p-4 {
+    text-align: center;
+}
+
+.overlay button {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.overlay button:hover {
+    background-color: #45a049;
+}
